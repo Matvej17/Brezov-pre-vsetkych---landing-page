@@ -19,3 +19,34 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .main-footer {
+
+        &--content {
+            padding: 16px 0 40px 0;
+    
+            h1 {
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main-footer {
+        border-top: 16px solid $green;
+
+        &--content {
+            padding: 24px 0;
+    
+            h1 {
+                font-size: $px24;
+    
+                svg {
+                    height: 32px;
+                }
+            }
+        }
+    }
+}

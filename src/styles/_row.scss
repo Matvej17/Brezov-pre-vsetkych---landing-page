@@ -67,3 +67,24 @@ ul {
         }
     }
 }
+
+@media (max-width: 1199px) {
+    .container {
+    
+        .row {
+    
+            &-full {
+    
+                &.gradient {
+                    background: none;
+                
+                    .gradient-triangel {
+                        top: 0px;
+                        left: 16px;
+                        width: calc( 100% - 16px );
+                    }
+                }
+            }
+        }
+    }
+}

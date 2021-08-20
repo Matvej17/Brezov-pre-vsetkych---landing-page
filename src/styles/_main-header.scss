@@ -28,7 +28,31 @@
                 line-height: $px42;
                 text-align: center;
                 margin: 0;
-                padding-left: 64px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .main-header {
+    
+        &--content {
+            padding: 32px 0 48px 0;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main-header {
+    
+        &--content {
+    
+            &--box {
+    
+                h2 {
+                    font-size: $px24;
+                    line-height: $px32;
+                }
             }
         }
     }

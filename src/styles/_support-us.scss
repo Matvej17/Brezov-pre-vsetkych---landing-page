@@ -55,3 +55,18 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .support-us {
+        display: block;
+    
+        &--box {
+            width: 100%;
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
